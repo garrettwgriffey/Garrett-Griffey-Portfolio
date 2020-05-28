@@ -1,143 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/css-reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
-    <title>Garrett Griffey</title>
-    </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/css-reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+  <title>Garrett Griffey</title>
+</head>
 
-    <body>
-      <nav id="navbar-example2" class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="home">Garrett Griffey</a>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-     
+<body>
+  <nav id="navbar-example2" class="navbar navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#home">Garrett Griffey</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
+  <!-- <img src="./assets/css/images/milkyWayResize.jpg"> -->
+
+  <!-- jumbotron -->
+  <div id="home">
+    <div class="jumbotron jumbotron-fluid" style="background-image: url('./assets/css/images/milkyWayResize.jpg')">
+      <div class="container">
+        <h1 class="display-4">I Can Do Stuff and Things</h1>
+          
       </div>
-
-      <!-- jumbotron -->
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Garrett Griffey</h1>
-          <p class="lead">I Can Do Stuff and Things</p>
-        </div>
-          <img src="./assets/css/images/milkyWayResize.jpg">
-        </div>
-      </div>
-
-      <!-- project cards -->
-      <div data-spy="scroll" data-target="#navbar-example2" data-offset="50">
-      <div id="projects" class="container-fluid">
-        <h1 class="projects">Projects</h1>
+    </div>
+  </div>
+  
+  <!-- project cards -->
+  <div data-spy="scroll" data-target="#navbar-example2" data-offset="50">
+    <div id="projects" class="container-fluid">
+      <h1 class="projects">Projects</h1>
 
       <div class="container">
-      <div class="card-deck">
+        <div class="card-deck">
 
-        <div class="card">
-          <a href="https://github.com/garrettwgriffey/README_Generator">
-          <img class="card-img-top" src="./assets/css/images/readMeSS.png" alt="README screenshot">
-          <div class="card-body">
-            <h5 class="card-title">README Generator</h5>
-            <p class="card-text">This application produces a README for your work by using the command line to enter in the project's details</p>
+          <div class="card">
+            <a href="https://github.com/garrettwgriffey/README_Generator">
+              <img class="card-img-top" src="./assets/css/images/readMeSS.png" alt="README screenshot">
+              <div class="card-body">
+                <h5 class="card-title">README Generator</h5>
+                <p class="card-text">This application produces a README for your work by using the command line to enter
+                  in the project's details</p>
+              </div>
           </div>
-        </div>
-        </a>
+          </a>
 
-        <div class="card">
-          <a href="https://garrettwgriffey.github.io/Daily-Planner/">
-          <img class="card-img-top" src="./assets/css/images/dailyPlannerSS.jpg" alt="Daily Planner screenshot">
-          <div class="card-body">
-            <h5 class="card-title">Daily Planner</h5>
-            <p class="card-text">A scheduler to help organize your busy work day!</p>
+          <div class="card">
+            <a href="https://garrettwgriffey.github.io/Daily-Planner/">
+              <img class="card-img-top" src="./assets/css/images/dailyPlannerSS.jpg" alt="Daily Planner screenshot">
+              <div class="card-body">
+                <h5 class="card-title">Daily Planner</h5>
+                <p class="card-text">A scheduler to help organize your busy work day!</p>
+              </div>
           </div>
-        </div>
-        </a>
-        <div class="card">
-          <a href="https://github.com/garrettwgriffey/Burger-Buddies">
-          <img class="card-img-top" src="./assets/css/images/burgerBuddiesSS.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Burger Buddies</h5>
-            <p class="card-text">A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM!</p>
+          </a>
+          <div class="card">
+            <a href="https://github.com/garrettwgriffey/Burger-Buddies">
+              <img class="card-img-top" src="./assets/css/images/burgerBuddiesSS.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Burger Buddies</h5>
+                <p class="card-text">A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM!</p>
+              </div>
           </div>
+          </a>
         </div>
-        </a>
+      </div>
+      <!-- second row -->
+      <br>
+      <div class="container">
+        <div class="card-deck">
+
+          <div class="card">
+            <a href="https://github.com/garrettwgriffey/Employee-Database">
+              <img class="card-img-top" src="./assets/css/images/employeeDbSS.jpg" alt="Employee Database screenshot">
+              <div class="card-body">
+                <h5 class="card-title">Employee Database</h5>
+                <p class="card-text">Updatable employee database through the command line.</p>
+              </div>
+          </div>
+          </a>
+          <div class="card">
+            <a href="https://github.com/garrettwgriffey/Template-Engine">
+              <img class="card-img-top" src="./assets/css/images/templateEngineSS.jpg" alt="Template Engine screenshot">
+              <div class="card-body">
+                <h5 class="card-title">Template Engine</h5>
+                <p class="card-text">Node CLI that takes in information and generates an HTML page</p>
+              </div>
+          </div>
+          </a>
+          <div class="card">
+            <a href="https://github.com/garrettwgriffey/theHungryMonkey">
+              <img class="card-img-top" src="./assets/css/images/theHungryMonkeySS.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">The Hungry Monkey</h5>
+                <p class="card-text">In this application the user can type in a desired food and request information on
+                  local restaurants that serve that dish or recipes if that is what the user prefers.</p>
+              </div>
+          </div>
+          </a>
+        </div>
       </div>
     </div>
-    <!-- second row -->
-    <br>
-    <div class="container">
-      <div class="card-deck">
-
-        <div class="card">
-          <a href="https://github.com/garrettwgriffey/Employee-Database">
-        <img class="card-img-top" src="./assets/css/images/employeeDbSS.jpg" alt="Employee Database screenshot">
-        <div class="card-body">
-          <h5 class="card-title">Employee Database</h5>
-          <p class="card-text">Updatable employee database through the command line.</p>
-        </div>
-      </div>
-      </a>  
-      <div class="card">
-        <a href="https://github.com/garrettwgriffey/Template-Engine">
-        <img class="card-img-top" src="./assets/css/images/templateEngineSS.jpg" alt="Template Engine screenshot">
-        <div class="card-body">
-          <h5 class="card-title">Template Engine</h5>
-          <p class="card-text">Node CLI that takes in information and generates an HTML page</p>
-        </div>
-      </div>
-      </a>
-      <div class="card">
-        <a href="https://github.com/garrettwgriffey/theHungryMonkey">
-        <img class="card-img-top" src="./assets/css/images/theHungryMonkeySS.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">The Hungry Monkey</h5>
-          <p class="card-text">In this application the user can type in a desired food and request information on local restaurants that serve that dish or recipes if that is what the user prefers.</p>
-        </div>
-      </div>
-      </a>
-      </div>
-      </div>
-    </div>
-    </div>
+  </div>
   <h4 id="contact" class="container-fluid projects">Contact</h1>
 
     <div class="card contactCard" style="width: 18rem;">
       <img class="card-img-top" src="assets/css/images/collage.jpg" alt="Collage">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
 
     <br>
-    <img src="assets/css/images/logo.png" class="logo" >
-   
-    
-    </body>
+    <img src="assets/css/images/logo.png" class="logo">
+
+
+</body>
 
 
 <footer>
-<!-- Sticky footer -->
-    <div class="fixed-bottom">Made By Garrett Griffey</div>
+  <!-- Sticky footer -->
+  <div class="fixed-bottom">Made By Garrett Griffey</div>
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
-<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+  integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+  integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function () {
+    $('body').bootstrapMaterialDesign();
+  });
+</script>
 
 </body>
+
 </html>
