@@ -4,9 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap material design -->
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
     integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/css-reset.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
@@ -26,18 +30,16 @@
     </ul>
   </nav>
 
-  <!-- <img src="./assets/css/images/milkyWayResize.jpg"> -->
-
-  <!-- jumbotron -->
-  <div id="home">
-    <div class="jumbotron jumbotron-fluid" style="background-image: url('./assets/css/images/milkyWayResize.jpg')">
-      <div class="container">
-        <h1 class="display-4">I Can Do Stuff and Things</h1>
-          
-      </div>
+  <!-- parallax -->
+  <div class="milkyWay">
+    <div class=".ptext">
+      <span class="border">
+        Parallax stuff
+      </span>
+    </div>
     </div>
   </div>
-  
+
   <!-- project cards -->
   <div data-spy="scroll" data-target="#navbar-example2" data-offset="50">
     <div id="projects" class="container-fluid">
@@ -114,6 +116,7 @@
       </div>
     </div>
   </div>
+
   <h4 id="contact" class="container-fluid projects">Contact</h1>
 
     <div class="card contactCard" style="width: 18rem;">
@@ -138,7 +141,7 @@
   <div class="fixed-bottom">Made By Garrett Griffey</div>
 </footer>
 
-
+<!-- bootstrap material design cdn -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
@@ -149,6 +152,15 @@
   $(document).ready(function () {
     $('body').bootstrapMaterialDesign();
   });
+  // bootstrap cdn
+  <script src = "https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity = "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin = "anonymous" >
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </script>
 
 </body>
