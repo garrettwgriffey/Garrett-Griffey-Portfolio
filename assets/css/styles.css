@@ -23,6 +23,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     display:block;
+    margin-bottom: 20px;
 }
 
 .contactCard{
@@ -45,19 +46,14 @@ body {
     
 }
 
-.icons{
-    float: left;
-}
-
 li{
-    float: left;
-    padding:5px;
-
+    font-size: 2rem;
+    float: right;
+    padding: 5px;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 20px;
 }
-
-/* li a:hover{
-    background-color: black;
-} */
 
 .milkyWay{
     display: flex;
@@ -78,8 +74,4 @@ li{
     position: fixed;
     
    
-}
-
-li {
-    display: inline-block;
 }
