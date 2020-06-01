@@ -1,6 +1,6 @@
 /* html body {
     background-color: #4240A3;
-}  */
+} */
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
@@ -10,12 +10,12 @@ body {
 .projects{
     text-align: center;
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 5rem;
 }
-
+/* 
 .fixed-bottom{
     text-align: center;
-}
+} */
 
 .logo{
     height: auto;
@@ -32,39 +32,56 @@ body {
     display:block;
 }
 
-.display-4{
+.lead{
+    position: absolute;
+    /* bottom: 20px ;
+    right: 100px; */
+    padding-left: 50px;
+    padding-right:200px;
+    padding-top: 170px;
     color: #6361ed;
+    font-size: 4rem;
+
+    
 }
 
-/* parallax */
+.icons{
+    float: left;
+}
+
+.bottomIcons{
+    position: absolute;
+    bottom: 0;
+    /* padding-bottom:5px; */
+    text-align: center;
+}
+
+li{
+    float: left;
+    padding:5px;
+
+}
+
+/* li a:hover{
+    background-color: black;
+} */
+
 .milkyWay{
-    background-image: url('./assets/css/images/milkyWay.jpg');
-    min-height: 100%;
+    display: flex;
+    object-fit: cover;
 }
 
-.ptext{
-    position:absolute;
-    top:50%;
-    width:100%;
-    text-align:center;
-    color:#000;
-    font-size:27px;
-    letter-spacing:8px;
-    text-transform:uppercase;
-  }
+.name{
+    position: absolute;
+    padding-left: 5px;
+    padding-right:200px;
+    padding-top: 60px;
+    color: #6361ed;
+    font-size: 5rem;
 
-  .ptext .border{
-    background-color:#111;
-    color:#fff;
-    padding:20px;
-  }
-  
-  .ptext .border.trans{
-    background-color:transparent;
-  }
-  
-  @media(max-width:568px){
-    .pimg1, .pimg2, .pimg3{
-      background-attachment:scroll;
-    }
-  }
+}
+
+.icons{
+    position: absolute;
+
+}

@@ -8,16 +8,19 @@
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
     integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
-
+  <!-- boostrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/css-reset.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
   <title>Garrett Griffey</title>
 </head>
 
-<body>
+<!-- <div class="navText">
   <nav id="navbar-example2" class="navbar navbar-light bg-light sticky-top">
     <a class="navbar-brand" href="#home">Garrett Griffey</a>
     <ul class="nav nav-pills">
@@ -27,17 +30,45 @@
       <li class="nav-item">
         <a class="nav-link" href="#contact">Contact</a>
       </li>
+      <div class="icons">
+      <li><a href="http://www.linkedin.com/in/garrettwgriffey" target="_blank"><i class="fab fa-linkedin icon"></i></a>
+      </li>
+      <li><a href="https://github.com/garrettwgriffey" target="_blank"><i class="fab fa-github icon"></i></a>
+      </li>
+      <li>
+        <a href="mailto:garrettwgriffey@gmail.com"><i class="far fa-envelope icon"></i></a>
+      </li>
+      <li>
+        <a href="assets\resumePDF\Garrett_Griffey_Resume.pdf" target="_blank"><i class="far fa-file-alt icon"></i></a>
+      </li>
+    </div>
     </ul>
   </nav>
+</div> -->
 
-  <!-- parallax -->
-  <div class="milkyWay">
-    <div class=".ptext">
-      <span class="border">
-        Parallax stuff
-      </span>
-    </div>
-    </div>
+<body>
+  <div class="container">
+    <p class="name">Garrett Griffey</p>
+  
+    <p class="lead">Full-Stack Web Development</p>
+  </div>
+  <div class="icons">
+    <ul>
+      <div class="icons">
+        <li><a href="http://www.linkedin.com/in/garrettwgriffey" target="_blank"><i class="fab fa-linkedin icon"></i></a>
+        </li>
+        <li><a href="https://github.com/garrettwgriffey" target="_blank"><i class="fab fa-github icon"></i></a>
+        </li>
+        <li>
+          <a href="mailto:garrettwgriffey@gmail.com"><i class="far fa-envelope icon"></i></a>
+        </li>
+        <li>
+          <a href="assets\resumePDF\Garrett_Griffey_Resume.pdf" target="_blank"><i class="far fa-file-alt icon"></i></a>
+        </li>
+    </ul>
+  </div>
+  <img class="milkyWay" src="./assets/css/images/stars4.jpg" alt="Space banner #1">
+  </div>
   </div>
 
   <!-- project cards -->
@@ -117,10 +148,16 @@
     </div>
   </div>
 
+  <!-- banner -->
+  <div class="banner">
+    <img src="./assets/css/images/milkyWayResize5.jpg" alt="Space banner #2">
+  </div>
+  <br>
+
   <h4 id="contact" class="container-fluid projects">Contact</h1>
 
     <div class="card contactCard" style="width: 18rem;">
-      <img class="card-img-top" src="assets/css/images/collage.jpg" alt="Collage">
+      <img class="card-img-top" src="./assets/css/images/collage.jpg" alt="Collage">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -128,18 +165,38 @@
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
+    <!--Grid column-->
+    <div class="bottomIcons">
+    <div class="col-md-3 text-center">
+      <ul class="list-styled mb-0">
+
+        <li><a href="https://github.com/garrettwgriffey" target="_blank"><i class="fab fa-github icon"></i></a>
+        </li>
+
+        <li>
+          <a href="mailto:garrettwgriffey@gmail.com"><i class="far fa-envelope icon"></i></a>
+        </li>
+        <li><a href="http://www.linkedin.com/in/garrettwgriffey" target="_blank"><i
+              class="fab fa-linkedin icon"></i></a>
+        </li>
+        <li>
+          <a href="assets\resumePDF\Garrett_Griffey_Resume.pdf" target="_blank"><i class="far fa-file-alt icon"></i></a>
+        </li>
+      </ul>
+    </div>
+    </div>
 
     <br>
-    <img src="assets/css/images/logo.png" class="logo">
+    <img src="./assets/css/images/logo.png" class="logo">
 
 
 </body>
 
 
-<footer>
-  <!-- Sticky footer -->
-  <div class="fixed-bottom">Made By Garrett Griffey</div>
-</footer>
+
+<!-- Sticky footer -->
+<!-- <div class="fixed-bottom">Made By Garrett Griffey</div>
+</footer> -->
 
 <!-- bootstrap material design cdn -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -153,7 +210,8 @@
     $('body').bootstrapMaterialDesign();
   });
   // bootstrap cdn
-  <script src = "https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  <
+  script src = "https://code.jquery.com/jquery-3.4.1.slim.min.js"
   integrity = "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
   crossorigin = "anonymous" >
 </script>
