@@ -49,13 +49,6 @@ body {
     float: left;
 }
 
-.bottomIcons{
-    position: absolute;
-    bottom: 0;
-    /* padding-bottom:5px; */
-    text-align: center;
-}
-
 li{
     float: left;
     padding:5px;
@@ -82,6 +75,11 @@ li{
 }
 
 .icons{
-    position: absolute;
+    position: fixed;
+    
+   
+}
 
+li {
+    display: inline-block;
 }
