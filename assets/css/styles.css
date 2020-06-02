@@ -58,6 +58,11 @@ li{
 .milkyWay{
     display: flex;
     object-fit: cover;
+    /* width: 100%; */
+}
+
+img{
+    width: 100%;
 }
 
 .name{
